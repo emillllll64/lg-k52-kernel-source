@@ -28,6 +28,7 @@
 #include <linux/of_fdt.h>
 #include <linux/of_irq.h>
 #include <linux/of_address.h>
+#include <soc/mediatek/lge/board_lge.h> 
 #endif
 
 
@@ -35,12 +36,6 @@
 #include <memory-amms.h>
 #include "mt-plat/mtk_ccci_common.h"
 #include <mt-plat/mtk_boot_common.h>
-
-// [LGE_S] LGP_MODEMBSP_RUNTIME
-#ifdef CONFIG_MACH_LGE
-#include <soc/mediatek/lge/board_lge.h>
-#endif
-// [LGE_E] LGP_MODEMBSP_RUNTIME
 
 #if defined(ENABLE_32K_CLK_LESS)
 //#include <mt-plat/mtk_rtc.h>
