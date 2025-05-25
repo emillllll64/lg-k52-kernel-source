@@ -179,7 +179,6 @@ EXPORT_SYMBOL_GPL(mtk_mq_btag_pidlog_insert);
 static void mtk_btag_pidlog_add(struct request_queue *q, struct bio *bio,
 	unsigned short pid, __u32 len)
 {
-	#int write = bio_data_dir(bio);
 	int major = bio->bi_disk ? MAJOR(bio_dev(bio)) : 0;
 
 	if (pid != 0xFFFF && major) {
