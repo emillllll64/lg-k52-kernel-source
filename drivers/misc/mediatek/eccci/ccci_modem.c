@@ -38,7 +38,7 @@
 
 // [LGE_S] LGP_MODEMBSP_RUNTIME
 #ifdef CONFIG_MACH_LGE
-#include <soc/mediatek/lge/board_lge.h> /* lge_get_board_revstr() */
+#include <soc/mediatek/lge/board_lge.h>
 #endif
 // [LGE_E] LGP_MODEMBSP_RUNTIME
 
