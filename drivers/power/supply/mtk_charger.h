@@ -273,9 +273,8 @@ struct mtk_charger {
 
 	int chr_type;
 	int usb_state;
-#ifdef CONFIG_LGE_PM
 	bool usb_compliance;
-#endif
+
 
 	struct mutex cable_out_lock;
 	int cable_out_cnt;
