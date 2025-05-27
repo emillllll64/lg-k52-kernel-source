@@ -17,6 +17,9 @@
 */
 
 #include "lge_tuning.h"
+
+extern int chargepump_set_backlight_level(bool enable);
+
 #if defined(CONFIG_LGE_DSI_PARAM_TUNING)
 static void lge_set_dsi_value(uint32_t dsi_index, LGE_DISP_CONFIG mode,int value)
 {
