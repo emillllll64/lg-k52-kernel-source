@@ -9,6 +9,7 @@
 #include <linux/sched.h>
 #include <linux/of.h>
 #include <linux/of_address.h>
+#include <mt6370_pmu_bled.h> /* chargepump_set_backlight_level() */
 #include <linux/atomic.h>
 /* #include <mach/mt_reg_base.h> */
 #ifdef CONFIG_MTK_CLKMGR
