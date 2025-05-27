@@ -13,3 +13,4 @@ obj-$(CONFIG_MT6370_PMU_FLED)		+= mt6370_pmu_fled.o
 obj-$(CONFIG_MT6370_PMU_BLED)		+= mt6370_pmu_bled.o
 obj-$(CONFIG_MT6370_PMU_RGBLED)		+= mt6370_pmu_rgbled.o
 obj-$(CONFIG_MT6370_PMU_CHARGER)	+= mt6370_pmu_charger.o
+ccflags-y += -Idrivers/misc/mediatek/pmic/mt6370/inc
