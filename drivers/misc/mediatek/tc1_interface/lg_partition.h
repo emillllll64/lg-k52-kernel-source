@@ -210,6 +210,7 @@ unsigned char LGE_FacReadDataVersion(unsigned char *dataVersion);
 unsigned char LGE_FacWriteDataVersion(unsigned char *dataVersion,
 	unsigned char needFlashProgram);
 unsigned char LGE_FacReadPid(unsigned char *pid);
+unsigned char LGE_FacReadMeid(unsigned char idx, unsigned char *meid);
 unsigned char LGE_FacWritePid(unsigned char *pid,
 	unsigned char needFlashProgram);
 void LGE_FacGetSoftwareversion(unsigned char isOriginalVersion,
